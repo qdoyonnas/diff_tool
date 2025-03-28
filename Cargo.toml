@@ -1,0 +1,22 @@
+[package]
+name = "diff_tool"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+walkdir = "2.4.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+blake3 = "1.5.0"
+fastcdc = "3.1.0"
+hex = "0.4"
+memmap2 = "0.9.5"
+fs2 = "0.4.3"
+rayon = "1.10.0"
+indicatif = "0.17.11"
+clap = { version = "4.5.0", features = ["derive"] }
+tch = { version = "0.19.0", optional = true }
+
+[features]
+default = []
+ai_priority = ["tch"]

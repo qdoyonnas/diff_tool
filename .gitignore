@@ -1,0 +1,6 @@
+/target
+.vs
+.vscode
+*.sln
+*.lock
+test_data*
