@@ -33,7 +33,7 @@ Compares file contents using robust hashing strategies. Reference states are sto
 
 ```bash
 git clone https://github.com/qdoyonnas/diff_tool.git
-cd DiffTool
+cd diff_tool
 cargo build --release
 ```
 
@@ -64,7 +64,8 @@ diff_tool <path_to_target> [OPTIONS]
 
 ---
 
-## Enabling AI Chunk Prioritization (Experimental)
+## Enabling AI Chunk Prioritization 
+# (Experimental)
 
 DiffTool includes an optional AI-based chunk prioritization feature that can improve performance on large datasets by ordering file processing based on predicted relevance.
 
