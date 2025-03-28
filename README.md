@@ -65,7 +65,7 @@ diff_tool <path_to_target> [OPTIONS]
 ---
 
 ## Enabling AI Chunk Prioritization 
-# (Experimental)
+### (Experimental)
 
 DiffTool includes an optional AI-based chunk prioritization feature that can improve performance on large datasets by ordering file processing based on predicted relevance.
 
